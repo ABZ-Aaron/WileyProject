@@ -20,7 +20,7 @@ def connect_to_api(data_bus):
 
 
 def process_response(data_bus):
-    """Process the response from the API"""
+    """Process the response from the API."""
     joke = data_bus["api_response"].get("setup", "No setup found")
     punchline = data_bus["api_response"].get("punchline", "No punchline found")
     print(f"Joke: {joke}")
