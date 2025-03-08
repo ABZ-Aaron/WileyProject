@@ -10,6 +10,7 @@ def initialisation():
     return data_bus
 
 
+# Random comment
 def connect_to_api(data_bus):
     """connect to the API"""
     response = requests.get(data_bus["api"]).json()
